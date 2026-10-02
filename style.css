@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.card {
+    width: 850px;
+    height: 500px;
+    background-color: #252831;
+    margin: auto;
+    margin-top: 4%;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.square-icon {
+    font-size: 100px;
+    color: rgba(137, 75, 61, 0.5);
+    transform: rotate(50deg);
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+    text-shadow: 0 0 15px rgba(255, 123, 53, 0.6);
+}
+
+.circle-icon {
+    font-size: 100px;
+    color: rgba(137, 75, 61, 0.5);
+    position: relative;
+    top: 450px;
+    right: 180px;
+    text-shadow: 0 0 15px rgba(255, 123, 53, 0.6);
+}
+
+.star-icon {
+    font-size: 70px;
+    color: rgba(123, 105, 47, 0.5);
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 55px;
+    left: 250px;
+    text-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+}
+
+.heading {
+    color: rgba(137, 75, 61, 0.2);
+    font-size: 130px;
+    font-family: sans-serif;
+    position: relative;
+    top: 130px;
+    left: 300px;
+}
+
+.card-content {
+    width: 690px;
+    height: 360px;
+    background-color: #292f3f;
+    position: absolute;
+    top: 60px;
+    left: 95px;
+}
+
+.name {
+    color: #d36c4d;
+    font-size: 25px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 15px;
+    left: 350px;
+    z-index: 10;
+}
+
+.nav-icon {
+    font-size: 17px;
+    position: relative;
+    bottom: 80px;
+    left: 540px;
+    z-index: 10;
+    color: white;
+    padding: 20px;
+}
+
+.product-category {
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 350px;
+    z-index: 10;
+    color: white;
+}
+
+.product-title {
+    font-size: 30px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 70px;
+    left: 350px;
+    z-index: 10;
+    color: white;
+}
+
+.product-price {
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 90px;
+    left: 350px;
+    z-index: 10;
+    color: white;
+    word-spacing: 30px;
+    display: inline;
+}
+
+.price-2 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.product-size {
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 70px;
+    left: 350px;
+    z-index: 10;
+    color: white;
+    word-spacing: 30px;
+}
+
+.product-color {
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 75px;
+    left: 350px;
+    z-index: 10;
+    color: white;
+}
+
+.color-shades {
+    font-size: 15px;
+    color: #faae15;
+    padding: 20px;
+    position: relative;
+    bottom: 0px;
+}
+
+.shade-no-2 {
+    font-size: 16px;
+    color: black;
+}
+
+.shade-no-3 {
+    color: #0d9bd2;
+}
+
+.product-actions {
+    font-size: 11px;
+    position: relative;
+    bottom: 120px;
+    left: 310px;
+    z-index: 10;
+    color: white;
+    padding: 40px;
+}
+
+.product-action-2 {
+    color: #d36c4d;
+}
+
+.btn-1 {
+    font-size: 11px;
+    position: relative;
+    bottom: 120px;
+    left: 290px;
+    z-index: 10;
+    color: white;
+}
+
+.btn-2 {
+    font-size: 11px;
+    position: relative;
+    bottom: 120px;
+    left: 290px;
+    z-index: 10;
+    color: #d36c4d;
+}
+
+.product-banner {
+    width: 320px;
+    height: 360px;
+    background-color: #fe6d38;
+    position: absolute;
+    bottom: 1px;
+    left: 2px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.shoe-img {
+    position: relative;
+    bottom: 10px;
+    right: 70px;
+    height: 350px;
+}
