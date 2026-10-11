@@ -74,6 +74,11 @@ body {
     z-index: 10;
 }
 
+.name:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .nav-icon {
     font-size: 17px;
     position: relative;
@@ -82,6 +87,11 @@ body {
     z-index: 10;
     color: white;
     padding: 20px;
+}
+
+.nav-icon:hover {
+    color: #d36c4d;
+    cursor: pointer;
 }
 
 .product-category {
@@ -94,6 +104,11 @@ body {
     color: white;
 }
 
+.product-category:hover {
+    color: #d36c4d;
+    cursor: pointer;
+}
+
 .product-title {
     font-size: 30px;
     font-family: sans-serif;
@@ -102,6 +117,11 @@ body {
     left: 350px;
     z-index: 10;
     color: white;
+}
+
+.product-title:hover {
+    color: #d36c4d;
+    cursor: pointer;
 }
 
 .product-price {
@@ -116,9 +136,19 @@ body {
     display: inline;
 }
 
+.product-price:hover {
+    color: #d36c4d;
+    cursor: pointer;
+}
+
 .price-2 {
     text-decoration: line-through;
     text-decoration-color: red;
+}
+
+.price-2:hover {
+    color: #d36c4d;
+    cursor: pointer;
 }
 
 .product-size {
@@ -131,6 +161,11 @@ body {
     z-index: 10;
     color: white;
     word-spacing: 30px;
+}
+
+.product-size:hover {
+    color: #d36c4d;
+    cursor: pointer;
 }
 
 .product-color {
@@ -209,4 +244,176 @@ body {
     bottom: 10px;
     right: 70px;
     height: 350px;
+}
+
+@media (max-width: 860px) {
+    .card {
+        width: 80%;
+        height: 98vh;
+    }
+
+    .shoe-img {
+    width: 90%;
+    height: 250px;
+    position: relative;
+    bottom: 2%;
+    right: 2%;
+  }
+
+  .card-content {
+    width: 70%;
+    height: 90vh;
+  }
+
+  .nav-icon {
+    position: relative;
+    left: 80%;
+    top: 25%;
+    font-size: 13px;
+  }
+
+  .product-banner {
+    width: 65%;
+    height: 50%;
+    position: relative;
+    bottom: 100%;
+  }
+
+  .product-title {
+    position: relative;
+    left: 2%;
+    top: 4%;
+  }
+
+  .product-category {
+    position: relative;
+    left: 2%;
+    top: 25%;
+  }
+
+   .product-price {
+    position: relative;
+    left: 2%;
+    top: 10%;
+  }
+
+  .product-size {
+    position: relative;
+    left: 2%;
+    top: 13%;
+  }
+
+  .product-color {
+    position: relative;
+    left: 2%;
+    top: 13%;
+  }
+
+  .product-actions {
+    position: relative;
+    left: 2%;
+    top: 5%;
+  }
+
+  .btn-1 {
+    position: relative;
+    left: 2%;
+    top: 5%;
+  }
+
+  .btn-2 {
+    position: relative;
+    left: 2%;
+    top: 5%;
+  }
+
+  .name {
+    position: relative;
+    left: 80%;
+  }
+ 
+}
+
+
+@media (max-width: 550px) {
+    .product-title {
+        font-size: 20px;
+    }
+
+    .product-banner {
+        height: 230px;
+    }
+
+    .product-category {
+        position: relative;
+        top: 18%;
+    }
+
+    .nav-icon {
+        font-size: 12px;
+        position: relative;
+        left: 65%;
+    }
+
+}
+
+@media (max-width: 515px) {
+    .nav-icon {
+        padding: 10px;
+    }
+
+    .product-actions {
+        position: relative;
+        left: -10%;
+    }
+
+    .product-action-2 {
+        position: relative;
+        left: -20%;
+    }
+
+    .btn-1 {
+        position: relative;
+        left: -19%;
+    }
+
+    .btn-2 {
+        position: relative;
+        left: -28%;
+    }
+
+    .name {
+        position: relative;
+        left: 75%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 496px) {
+    .card-content {
+        width: 60%;
+        position: relative;
+        left: 20%;
+        top: -65%;
+    }
+    
+    .product-action-2 {
+        position: relative;
+        left: -25%;
+    }
+
+    .btn-2 {
+        position: relative;
+        left: 60%;
+        top: -6%;
+    }
+
+    .product-banner {
+        height: 180px;
+    }
+
+    .shoe-img {
+        width: 80%;
+        height: 160px;
+    }
 }
